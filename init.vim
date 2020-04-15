@@ -42,7 +42,6 @@ set splitright      " put new vertical split windows to the right
 set splitbelow      " put new horizontal split windows to the bottom
 set list            " show trailing whitespace
 set listchars=trail:⋅,nbsp:⋅,tab:›\  " define characters to show
-set textwidth=79    " broke lines longer than 79 columns
 
 " Indentation
 set autoindent      " turn on auto indentation
