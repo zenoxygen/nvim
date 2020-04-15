@@ -98,6 +98,7 @@ Plug 'junegunn/fzf'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'alpertuna/vim-header'
 Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'rust-lang/rust.vim'
@@ -135,6 +136,12 @@ let g:syntastic_always_populate_loc_list=1
 let g:syntastic_auto_loc_list=0
 let g:syntastic_check_on_open=1
 let g:syntastic_check_on_wq=0
+
+" vim-header
+let g:header_auto_add_header=0
+let g:header_field_filename=0
+let g:header_field_timestamp=0
+let g:header_field_modified_timestamp=0
 
 " python-mode
 let g:pymode_indent=1
