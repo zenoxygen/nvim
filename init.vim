@@ -97,6 +97,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
@@ -113,7 +114,7 @@ Plug 'zah/nim.vim'
 call plug#end()
 
 " airline
-let g:airline_powerline_fonts=1"
+let g:airline_powerline_fonts=1
 
 " nerdtree
 let NERDTreeWinSize=30
@@ -171,8 +172,8 @@ nnoremap j gj
 nnoremap k gk
 
 " Jump more lines up
-nnoremap <C-j> 15gj
-nnoremap <C-k> 15gk
+nnoremap <C-j> 5gj
+nnoremap <C-k> 5gk
 
 " Save buffer
 nnoremap ;; :w<CR>
